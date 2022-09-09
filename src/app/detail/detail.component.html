@@ -1,3 +1,19 @@
-<p>
-  detail works!
-</p>
+<div id="container">
+
+  <div class="birinci">
+    <ng-content select="[birinci]"></ng-content>
+  </div>
+
+  <div class="ikinci">
+    <ng-content select="[ikinci]"></ng-content>
+  </div>
+
+  <div class="ucuncu">
+    <ng-content select="[ucuncu]"></ng-content>
+  </div>
+</div>
+
+
+<div class="dorduncu">
+  <ng-content></ng-content>
+</div>
